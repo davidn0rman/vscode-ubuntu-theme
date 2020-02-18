@@ -1,0 +1,21 @@
+{
+    "name": "ubuntu-terminal-vscode-theme",
+    "displayName": "Ubuntu Terminal VSCode Theme",
+    "description": "An Ubuntu terminal inspired VS Code theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ubuntu Terminal VSCode Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Ubuntu Terminal VSCode Theme-color-theme.json"
+            }
+        ]
+    }
+}
