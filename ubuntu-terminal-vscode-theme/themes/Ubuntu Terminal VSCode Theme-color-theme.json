@@ -11,7 +11,7 @@
     "editor.foreground": "#ffffff",
     "sideBar.background": "#393834",
     "sideBar.border": "#151514",
-    "sideBarTitle.foreground": "#8DF534",
+    "sideBarTitle.foreground": "#fff",
     "tab.border": "#290123",
     "tab.inactiveBackground": "#351C2B",
     "titleBar.activeBackground": "#393834",
@@ -65,7 +65,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#8DF534"
+        "foreground": "#F5E834"
       }
     },
     {
@@ -76,6 +76,26 @@
         "punctuation",
         "meta.tag",
         "punctuation.definition.tag",
+        "punctuation.separator.inheritance.php",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.section.embedded",
+        "keyword.other.template",
+        "keyword.other.substitution"
+      ],
+      "settings": {
+        "foreground": "#B2CCD6"
+      }
+    },
+    {
+      "name": "Operator, Misc",
+      "scope": [
+        "keyword.control",
+        "constant.other.color",
+        "punctuation",
+        "meta.tag",
+        // "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
@@ -118,7 +138,7 @@
         "meta.block variable.other"
       ],
       "settings": {
-        "foreground": "#F5E834"
+        "foreground": "#fff"
       }
     },
     {
@@ -248,6 +268,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#8DF534"
       }
     },
